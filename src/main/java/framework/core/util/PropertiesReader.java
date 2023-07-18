@@ -8,8 +8,6 @@ import java.util.Properties;
 
 public class PropertiesReader {
 
-    public static final String UF = "uf";
-
     //SINGLETON
     private static PropertiesReader _INSTANCE;
 

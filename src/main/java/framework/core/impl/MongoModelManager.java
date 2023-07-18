@@ -1,12 +1,9 @@
 package framework.core.impl;
 
-import com.mongodb.Block;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoException;
-import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.mongodb.client.model.*;
 import com.mongodb.client.result.DeleteResult;
 import com.mongodb.client.result.UpdateResult;
 import framework.core.ModelManager;
@@ -18,7 +15,6 @@ import org.bson.types.ObjectId;
 
 import java.net.UnknownHostException;
 import java.util.GregorianCalendar;
-import java.util.Iterator;
 import java.util.Map;
 
 import static com.mongodb.client.model.Filters.eq;
